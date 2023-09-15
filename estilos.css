@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&family=Quicksand:wght@300;500;600;700&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@1,100&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif; */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar-brand img{
+    width: 200px;
+
+}
+
+.navbar{
+    background-color: rgba(47, 200, 47, 0.028);
+    background-image: url(multimedia/fondo1.jpg);
+    background-size:cover;
+    background-position-y: 1100px;
+    background-position-x: auto;
+    border: solid rgba(0, 128, 0, 0.137) 1.5px;
+}
+
+.nav-link{
+    color: rgba(2, 162, 2, 0.682) !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    background-color: rgba(14, 220, 7, 0.198);
+    border-radius: 10px;
+    transition: 0.5s ease-out
+}
+
+.navbar-nav{
+    padding: 10px !important;
+}
+
+body{   
+        background-image: url(multimedia/main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.card-container{
+    width: 80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card{
+    background-color: #ffffff5b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
+    margin-top: 30px;
+    border-radius: 5px 5px 0 0;
+}  
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(22, 123, 63, 0.689);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 5%;
+}
+
+.card-content p{
+    font-size: 12px;
+    line-height: 1.7;
+    
+}
+
+.alimentos .card-container{
+    width: 80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.alimentos .card{
+    background-color: #ffffff5b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
+    margin-top: 30px;
+    border-radius: 5px 5px 0 0;
+}  
+
+.alimentos .card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.alimentos .card-content{
+    padding: 20px;
+}
+
+.alimentos .card-content h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(22, 123, 63, 0.689);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 5%;
+}
+
+.alimentos .card-content p{
+    font-size: 30px;
+    line-height: 1.7;
+    text-align: center;
+    
+}
+
+.body-alimentos{   
+    background-image: url(multimedia/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+      
+    
