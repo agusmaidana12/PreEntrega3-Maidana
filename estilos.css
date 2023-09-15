@@ -146,6 +146,30 @@ body{
     background-size: cover;
 }
 
+@media screen and (max-width: 800px){
+    .card-container{
+        grid-template-columns: repeat(2, 1fr)
+    }
+  }
+
+@media screen and (max-width: 600px){
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .alimentos .card-container{
+        grid-template-columns: repeat(2, 1fr)
+    }
+  }
+
+@media screen and (max-width: 600px){
+    .alimentos .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
 
 
 
