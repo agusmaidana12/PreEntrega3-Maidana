@@ -36,7 +36,7 @@ box-sizing: border-box;
 }
 
 .nav-link:hover{
-    background-color: rgba(14, 220, 7, 0.198);
+    background-color: rgba(14, 220, 7, 0.194);
     border-radius: 10px;
     transition: 0.5s ease-out
 }
@@ -52,7 +52,7 @@ body{
 }
 
 .card-container{
-    width: 80%;
+    width: 70%;
     margin:auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,36 +63,49 @@ body{
 }
 
 .card{
-    background-color: #ffffff5b;
+    background-color: #ffffffa3;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
     margin-top: 30px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px;
 }  
 
 .card img{
     max-width: 100%;
-    height: auto;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .card-content{
-    padding: 20px;
+    padding: 15px;
 }
 
 .card-content h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgba(22, 123, 63, 0.689);
-    text-align: center;
     white-space: nowrap;
-    margin-bottom: 5%;
+    margin-left: -10px;
+    text-align: center;
 }
 
 .card-content p{
     font-size: 12px;
     line-height: 1.7;
     
+}
+
+
+.card-3 img{
+    height: 183px;
+}
+
+.card-2 img{
+    height: 183px; ;
+}
+
+.card-1 img{
+    height: 183px;
 }
 
 .alimentos .card-container{
