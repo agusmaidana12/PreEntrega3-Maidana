@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .alimentos .card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+    .alimentos .card-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
